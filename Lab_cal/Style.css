@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+#greeting{
+    font-size: 6em;
+    font-weight: 200;
+    color: blue;
+    margin: 0;
+    text-align: center;
+}
+#table1{
+    border-color: cornflowerblue;
+    text-align: center;
+    background-color: moccasin;
+    align: center;
+}
+#table2{
+    border-color: darkblue;
+    text-align: center;
+    background-color: palegoldenrod;
+    align: center;
+}
