@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia application</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="greeting">What Do You Know?</h1>
+        <div id="quiz">
+            <h2 id="questions"></h2>
+            <div><input type="radio" name="choices" value="a"><span id="choiceA"></span></div>
+            <div><input type="radio" name="choices" value="b"><span id="choiceB"></span></div>
+            <div><input type="radio" name="choices" value="c"><span id="choiceC"></span></div>
+            <div><input type="radio" name="choices" value="d"><span id="choiceD"></span></div>
+            <button id="submit">Submit</button>
+            <h3 id="quizStatus"></h3>
+        </div>
+        <footer id="options" style="display: none;">
+            <p><a href="trivia.html">Retake the quiz!</a></p>
+            <p><a href="questions.html">Contribute to a question set!</a></p>
+        </footer>
+        <script type="text/javascript" src="trivia.js"></script>
+    </body>
+</html>
